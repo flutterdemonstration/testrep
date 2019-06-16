@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 600px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url('../Screenshot.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            position: relative;
+            padding: 10px;
+        }
+
+        
+
+        form input{
+            display: block;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            background-color: #ccc;
+            color: #000;
+        } 
+
+        form input {
+            border-radius: 5px 0 0 5px;
+            height: 80px;
+            width: 200px;
+        }
+
+        form input:not(:last-child){
+            border-right: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+            <form action="">
+                    <input type="text" name="" id="" placeholder="othe ko naam">
+                    <input type="submit" value="Really? &nbsp;woanda">
+                    <input type="submit" value="Really? &nbsp;woanda">
+                    <input type="submit" value="Really? &nbsp;woanda">
+                    <input type="submit" value="Really? &nbsp;woanda">
+                </form>
+</body>
+</html>
